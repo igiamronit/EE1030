@@ -31,6 +31,7 @@
 \usepackage{tabularx}
 \usepackage{array}
 \usepackage{float}
+\usepackage{multicol}
 
 
 \newtheorem{theorem}{Theorem}[section]
@@ -62,47 +63,68 @@
 \[
 \brak{\frac{dy}{dx}}^2 - x \frac{dy}{dx} + y = 0 \text{ is}
 \]
-\begin{enumerate}[label=(\alph*)]
-    \item $y = 2$ \quad \quad \quad \quad (b) $y = 2x$
-    \item $y = 2x - 4$ \quad \quad (d) $y = 2x^2 - 4$
-\end{enumerate}
+\begin{multicols}{2}
+(a) $y = 2$ \\ (c) $y = 2x -4$
+\columnbreak
+
+(b) $y = 2x$ \\(d) $y = 2x^{2}-4$
+\end{multicols}
+
 \item If $x^2 + y^2 = 1$, then \hfill (2000S)
-\begin{enumerate}[label=(\alph*)]
-    \item $yy'' - 2\brak{y'}^2 + 1 = 0$ \quad \quad (b) $yy'' + \brak{y'}^2 + 1 = 0$
-    \item $yy'' + \brak{y'}^2 - 1 = 0$ \quad (d) $yy'' + 2\brak{y'}^2 + 1 = 0$
-\end{enumerate}
+\begin{multicols}{2}
+(a) $yy"-2\brak{y'^{2}}+1 = 0$ \\ (c) $yy"-\brak{y'^{2}}-1 = 0$
+\columnbreak
+
+(b) $yy"+\brak{y'^{2}}+1 = 0$ \\(d) $yy"+2\brak{y'^{2}}+1 = 0$
+\end{multicols}
+
 \item If $y\brak{t}$ is a solution of $\brak{1 + t} \frac{dy}{dt} - ty = 1$ and $y\brak{0} = -1$, then \hfill (2003S)
 \[
 y\brak{1} \text{ is equal to}
 \]
-\begin{enumerate}[label=(\alph*)]
-    \item $-\frac{1}{2}$ \quad \quad \quad \quad (b) $e + \frac{1}{2}$
-    \item $e - \frac{1}{2}$ \quad \quad \quad (d) $\frac{1}{2}$
-\end{enumerate}
+\begin{multicols}{2}
+(a)$-\frac{1}{2}$  \\ (c) $e + \frac{1}{2}$
+\columnbreak
+
+(b)$e - \frac{1}{2}$  \\(d) $\frac{1}{2}$
+\end{multicols}
 
 \item If $y = y\brak{x}$ and $\frac{2 + \sin x}{y + 1}\brak{\frac{dy}{dx}} = -\cos x$, $y\brak{0} = 1$, then y\brak{\frac{\pi}{2}} \hfill (2004S)
 
-\begin{enumerate}[label=(\alph*)]
-    \item $\frac{1}{3}$ \quad \quad \quad (b) $\frac{2}{3}$
-    \item $-\frac{1}{3}$ \quad \quad (d) $1$
-\end{enumerate}
+\begin{multicols}{2}
+(a)$\frac{1}{3}$ \\ (c) $\frac{2}{3}$
+\columnbreak
+
+(b)$-\frac{1}{3}$  \\(d)  $1$
+\end{multicols}
+
 \item If $y = y(x)$ and it follows the relation $x \cos y + y \cos x = \pi$ then $y''(0) =$ \hfill (2005S)
-\begin{enumerate}[label=(\alph*)]
-    \item $1$ \quad \quad \quad (b) $-1$
-    \item $\pi - 1$ \quad \quad (d) $-\pi$
-\end{enumerate}
+
+\begin{multicols}{2}
+(a)$1$\\ (c) $-1$
+\columnbreak
+
+(b) $\pi - 1$ \\(d) $-\pi$  
+\end{multicols}
 
 \item The solution of primitive integral equation $\brak{x^2 + y^2}dy = xy \, dx$ is $y = y(x)$. If $y(1) = 1$ and $x_0 = e$, then $x_0$ is equal to \hfill (2005S)
-\begin{enumerate}[label=(\alph*)]
-    \item $\sqrt{2\brak{e^2 - 1}}$ \quad (b) $\sqrt{2\brak{e^2 + 1}}$
-    \item $\sqrt{3e}$ \quad \quad \quad (d) $\sqrt{\frac{e^2 + 1}{2}}$
-\end{enumerate}
+
+\begin{multicols}{2}
+(a)$\sqrt{2\brak{e^2 - 1}}$ \\ (c) $\sqrt{2\brak{e^2 + 1}}$
+\columnbreak
+
+(b)$\sqrt{3e}$  \\(d) $\sqrt{\frac{e^2 + 1}{2}}$
+\end{multicols}
 
 \item For the primitive integral equation $y dx + y^2 dy = x \, dy$; $x \in \mathbb{R}, y > 0, y = y(x), y(1) = 1$, then $y(-3)$ is \hfill (2005S)
-\begin{enumerate}[label=(\alph*)]
-    \item $3$ \quad \quad \quad \quad (b) $2$
-    \item $1$ \quad \quad \quad \quad (d) $5$
-\end{enumerate}
+
+\begin{multicols}{2}
+(a) $3$ \\ (c) $2$
+\columnbreak
+
+(b) $1$   \\(d) $5$
+\end{multicols}
+
 \item The differential equation $\frac{dy}{dx} = \frac{\sqrt{1-y^2}}{y}$ determines a family of circles with \hfill (2005S)
 \begin{enumerate}[label=(\alph*)]
     \item [(a)] variable radii and a fixed centre at \brak{0,1}
@@ -118,10 +140,13 @@ in $(-1, 1)$ satisfying $f(0) = 0$. Then
 \[
 \int_{-\frac{\sqrt{3}}{2}}^{\frac{\sqrt{3}}{2}} f(x) \, dx \text{ is}
 \]
-\begin{enumerate}[label=(\alph*)]
-    \item $\frac{\pi}{3} - \frac{\sqrt{3}}{2}$ \quad (b) $\frac{\pi}{3} - \frac{\sqrt{3}}{4}$
-    \item $\frac{\pi}{6} - \frac{\sqrt{3}}{4}$ \quad (d)$\frac{\pi}{6} - \frac{\sqrt{3}}{2}$
-\end{enumerate}
+
+\begin{multicols}{2}
+(a) $\frac{\pi}{3} - \frac{\sqrt{3}}{2}$  \\ (c) $\frac{\pi}{3} - \frac{\sqrt{3}}{4}$ 
+\columnbreak
+
+(b) $\frac{\pi}{6} - \frac{\sqrt{3}}{4}$   \\(d) $\frac{\pi}{6} - \frac{\sqrt{3}}{2}$
+\end{multicols}
 
 \item If $y = y(x)$ satisfies the differential equation
 \[
@@ -129,10 +154,13 @@ in $(-1, 1)$ satisfying $f(0) = 0$. Then
 \]
 
 y(0) = $\sqrt{7}$, \text{ then } y(256) = 
-\begin{enumerate}[label=(\alph*)]
-    \item 3 \quad\quad\quad (b) 9
-    \item 16\quad\quad\quad (d) 80
-\end{enumerate}
+
+\begin{multicols}{2}
+(a)$3$  \\ (c) $9$
+\columnbreak
+
+(b)$16$   \\(d) $80$
+\end{multicols}
 \end{enumerate}
 \section*{D. MCQ with one or more than correct answer}
 \begin{enumerate}
@@ -140,18 +168,22 @@ y(0) = $\sqrt{7}$, \text{ then } y(256) =
 \item The order of the differential equation whose general solution is given by
 $y = \brak{C_1 + C_2} \cos \brak{x + C_3} - C_4 e^{x+C_5}$, where $C_1, C_2, C_3, C_4, C_5$ are arbitrary constants, is \hfill (1998 - 2 Marks)
 
-\begin{enumerate}[label=(\alph*)]
-    \item 5 \quad\quad\quad (b) 4
-    \item 3 \quad\quad\quad (d) 2
-\end{enumerate}
+\begin{multicols}{2}
+(a) $5$ \\ (c) $4$
+\columnbreak
 
+(b) $3$  \\(d) $2$ 
+\end{multicols}
 
 \item  The differential equation representing the family of curves
 $y^2 = 2c \brak{x + \sqrt{c}}$, where c  is a positive parameter, is of \hfill(1999 - 3 Marks)
-\begin{enumerate}[label=(\alph*)]
-    \item order 1 \quad\quad  (b)order 2
-    \item degree 3 \quad (d)degree 4
-\end{enumerate}
+
+\begin{multicols}{2}
+(a) order $1$ \\ (c) order $2$
+\columnbreak
+
+(b) degree $3$  \\(d) degree $4$
+\end{multicols}
 
 \item  A curve $ y = f(x) $ passes through $ \brak{1,1} $ and at $ P\brak{x, y} $, the tangent cuts the $ x $-axis and $ y $-axis at $ A $ and $ B $ respectively such that $ BP : AP = 3 : 1 $, then
 \begin{enumerate}[label=(\alph*)]
@@ -162,16 +194,22 @@ $y^2 = 2c \brak{x + \sqrt{c}}$, where c  is a positive parameter, is of \hfill(1
 \end{enumerate}
 
 \item  If $y\brak{x}$ satisfies the differential equation $y' - y \tan x = 2x \sec x $ and $y\brak{0} = 0 $, then
-\begin{enumerate}[label=(\alph*)]
-    \item $ y\brak{\frac{\pi}{4}} = \frac{\pi^2}{8\sqrt{2}} $ \quad (b) $ y\brak{\frac{\pi}{4}} = \frac{\pi^2}{18} $
-    \item $ y\brak{\frac{\pi}{3}} = \frac{\pi^2}{9} $ \quad \quad (d) $ y\brak{\frac{\pi}{3}} = \frac{4\pi}{3} + \frac{2\pi^2}{3\sqrt{3}} $
-\end{enumerate}
+
+\begin{multicols}{2}
+(a) $ y\brak{\frac{\pi}{4}} = \frac{\pi^2}{8\sqrt{2}} $ \\ (c) $ y\brak{\frac{\pi}{4}} = \frac{\pi^2}{18} $
+\columnbreak
+
+(b) $ y\brak{\frac{\pi}{3}} = \frac{\pi^2}{9} $  \\(d) $ y\brak{\frac{\pi}{3}} = \frac{4\pi}{3} + \frac{2\pi^2}{3\sqrt{3}} $
+\end{multicols}
 
 \item A curve passes through the point $ \brak{1,\frac{\pi}{6}} $. Let the slope of the curve at each point $ \brak{x, y} $ be $ \frac{y}{x} + \sec\brak{\frac{y}{x}}, x > 0 $. Then the equation of the curve is 
-\begin{enumerate}[label=(\alph*)]
-    \item $ \sin\brak{\frac{y}{x}} = \log x + \frac{1}{2} $ \quad(b) $ \cos\sec\brak{\frac{y}{x}} = \log x + 2 $
-    \item $ \sec\brak{\frac{2y}{x}} = \log x + 2 $ \quad (d) $ \cos\brak{\frac{2y}{x}} = \log x + \frac{1}{2} $
-\end{enumerate}
+
+\begin{multicols}{2}
+(a) $ \sin\brak{\frac{y}{x}} = \log x + \frac{1}{2} $ \\ (c) $\cos\sec\brak{\frac{y}{x}} = \log x + 2 $
+\columnbreak
+
+(b) $\sec\brak{\frac{2y}{x}} = \log x + 2$ \\(d) $ \cos\brak{\frac{2y}{x}} = \log x + \frac{1}{2} $
+\end{multicols}
 \end{enumerate}
 
 \end{document}
