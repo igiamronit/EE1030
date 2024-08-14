@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  13 AUG 2024 20:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  14 AUG 2024 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1285,25 +1285,19 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Overfull \hbox (24.60846pt too wide) detected at line 132
+Overfull \hbox (48.60846pt too wide) detected at line 129
 \OT1/txr/m/n/12 8[] [] \OML/txmi/m/it/12 dy \OT1/txr/m/n/12 = [][] \OML/txmi/m/
 it/12 dx;  x > \OT1/txr/m/n/12 0[]
  []
 
 
-Underfull \hbox (badness 6445) in paragraph at lines 141--143
-[]\OT1/txr/m/n/12 1. The or-der of the dif-fer-en-tial equa-tion
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
+[]\OT1/txr/m/n/12 The or-der of the dif-fer-en-tial equa-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 \OT1/txr/m/n/12 whose gen-eral so-lu-tion is given by
- []
-
-
-Underfull \hbox (badness 5091) in paragraph at lines 141--143
-\OML/txmi/m/it/12 y \OT1/txr/m/n/12 = [] [] [] \OMS/txsy/m/n/12 ^^@ \OML/txmi/m
-/it/12 C[]e[]$\OT1/txr/m/n/12 , where
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
@@ -1328,13 +1322,13 @@ Package rerunfilecheck Info: Checksums for `main2.out':
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30322 strings out of 474222
- 593451 string characters out of 5748734
- 1968975 words of memory out of 5000000
+ 30337 strings out of 474222
+ 593556 string characters out of 5748734
+ 1971975 words of memory out of 5000000
  51894 multiletter control sequences out of 15000+600000
  616338 words of font info for 151 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,13n,103p,1173b,582s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,13n,103p,1173b,712s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/f
@@ -1342,10 +1336,10 @@ onts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
 s/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main2.pdf (2 pages, 52127 bytes).
+Output written on main2.pdf (2 pages, 52509 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 78 compressed objects within 1 object stream
- 35 named destinations out of 1000 (max. 500000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 50 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
