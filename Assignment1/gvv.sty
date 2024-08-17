@@ -1,3 +1,4 @@
+\usepackage{xparse}
 
 %\newcounter{MYtempeqncnt}
 \DeclareMathOperator*{\Res}{Res}
@@ -50,7 +51,6 @@ columns=fullflexible
 \providecommand{\mean}[1]{E\left[ #1 \right]}
 \providecommand{\cond}[2]{#1\middle|#2}
 \providecommand{\fourier}{\overset{\mathcal{F}}{ \rightleftharpoons}}
-\providecommand{\ztransform}{\overset{\mathcal{Z}}{ \rightleftharpoons}}
 \newenvironment{amatrix}[1]{%
   \left(\begin{array}{@{}*{#1}{c}|c@{}}
 }{%
@@ -142,3 +142,5 @@ columns=fullflexible
     >{\leavevmode\hbox to 1.5em{\stepcounter{matchright}\alph{matchright})}}X%
     }%
 }{\endtabularx}
+
+
