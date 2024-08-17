@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  17 AUG 2024 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.8.5)  17 AUG 2024 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1330,35 +1330,40 @@ Package hyperref Info: Link coloring OFF on input line 51.
 \openout5 = `main2.out'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-3.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-3.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-3.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-3.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-3.
+2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+[]\OT1/txr/m/n/12 A so-lu-tion of the dif-fer-en-tial equa-tion
+ []
+
+
 Overfull \hbox (27.08038pt too wide) detected at line 167
 []
  []
@@ -1397,7 +1402,7 @@ Package rerunfilecheck Info: Checksums for `main2.out':
 Here is how much of TeX's memory you used:
  30503 strings out of 474222
  596057 string characters out of 5748734
- 1976975 words of memory out of 5000000
+ 1978975 words of memory out of 5000000
  52027 multiletter control sequences out of 15000+600000
  616338 words of font info for 151 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1409,7 +1414,7 @@ onts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfont
 s/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main2.pdf (2 pages, 54088 bytes).
+Output written on main2.pdf (2 pages, 55456 bytes).
 PDF statistics:
  156 PDF objects out of 1000 (max. 8388607)
  134 compressed objects within 2 object streams
