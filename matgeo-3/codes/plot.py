@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import math
 
 # Read coordinates from the text file
 with open("output.txt", "r") as file:
@@ -14,7 +15,15 @@ A = (A_coords[0], A_coords[1])
 B = (B_coords[0], B_coords[1])
 C = (C_coords[0], C_coords[1])
 
-# Plotting points
+# Function to calculate the distance between two points
+def calculate_distance(p1, p2):
+    return math.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
+
+# Calculate distances AB and AC
+AB = calculate_distance(A, B)
+AC = calculate_distance(A, C)
+
+# Plotting points A, B, and C
 plt.plot(*A, 'ro')  # A is red
 plt.plot(*B, 'bo')  # B is blue
 plt.plot(*C, 'go')  # C is green
@@ -28,12 +37,23 @@ plt.text(C[0], C[1], f"C{C}", fontsize=12, ha='right', va='bottom')
 plt.plot([A[0], B[0]], [A[1], B[1]], 'b-')  # Line AB in blue
 plt.plot([A[0], C[0]], [A[1], C[1]], 'g-')  # Line AC in green
 
+# Plot circles with radius AB at B and radius AC at C
+circle_B = plt.Circle(B, AB, color='b', fill=False, linestyle='--', label=f"Circle at B with radius AB = {AB:.2f}")
+circle_C = plt.Circle(C, AC, color='g', fill=False, linestyle='--', label=f"Circle at C with radius AC = {AC:.2f}")
+
+# Adding circles to the plot
+plt.gca().add_patch(circle_B)
+plt.gca().add_patch(circle_C)
+
 # Adding labels and title
 plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
-plt.title("Plot of points A, B, C and lines AB, AC")
+plt.title("Plot of points A, B, C, lines AB, AC, and circles with radius AB and AC")
 
-# Show plot with grid
+# Equal scaling and showing the grid
+plt.axis('equal')
 plt.grid(True)
+
+# Show plot
 plt.show()
 
