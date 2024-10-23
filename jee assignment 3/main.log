@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.3)  19 OCT 2024 22:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.3)  23 OCT 2024 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1366,8 +1366,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+[]$[] \OMS/txsy/m/n/12 \
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+[]$[] \OMS/txsy/m/n/12 [
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 129--131
 \OT1/txr/m/n/12 Find the value of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
+\OML/txmi/m/it/12 g [] []$\OT1/txr/m/n/12 .
  []
 
 
@@ -1393,18 +1408,18 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  30485 strings out of 474222
  596084 string characters out of 5748734
- 1964975 words of memory out of 5000000
+ 1962975 words of memory out of 5000000
  52043 multiletter control sequences out of 15000+600000
  616656 words of font info for 152 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,9n,103p,1172b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,9n,103p,1172b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 50641 bytes).
+Output written on main.pdf (2 pages, 50607 bytes).
 PDF statistics:
  101 PDF objects out of 1000 (max. 8388607)
  82 compressed objects within 1 object stream
