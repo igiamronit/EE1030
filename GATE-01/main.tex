@@ -1,0 +1,284 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline} 
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{tikz}
+\usetikzlibrary{graphs}
+\usepackage{circuitikz}
+
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+
+\theoremstyle{remark}
+
+% Marks the beginning of the document
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2011-CE-"40-52"}
+\author{ai24btech11028 - Ronit Ranjan}
+\maketitle
+\bigskip
+
+
+\begin{enumerate}
+
+
+    \item A spillway discharges flood flow at a rate of $9 m^3/s$ per metre width. If the depth of flow on the horizontal apron at the toe of the spillway is $46$ cm, the tail water depth needed to form a hydraulic jump is approximately given by which of the following options?
+    \begin{enumerate}
+        \item $2.54$m
+        \item $4.90$m
+        \item $5.77$m
+        \item $6.23$m
+    \end{enumerate}
+
+    \item In an aquifer extending over $150$ hectare, the water table was $20$m below ground level. Over a period of time the water table dropped to $23$m below the ground level. If the porosity of aquifer is $0.40$ and the specific retention is $0.15$, what is the change in ground water storage of the aquifer?
+    \begin{enumerate}
+        \item $67.5$ ha-m
+        \item $112.5$ ha-m
+        \item $180.0$ ha-m
+        \item $450.0$ ha-m
+    \end{enumerate}
+
+    \item Total suspended particulate matter (TSP) concentration in ambient air is to be measured using a high volume sampler. The filter used for this purpose had an initial dry weight of $9.787$ g. The filter was mounted in the sampler and the initial air flow rate through the filter was set at $1.5 m^3$/min. Sampling continued for 24 hours. The airflow after 24 hours was measured to be $1.4 m^3$/min. The dry weight of the filter paper after 24-hour sampling was $10.283$ g. Assuming a linear decline in the air flow rate during sampling, what is the 24-hour average TSP concentration in the ambient air?
+    \begin{enumerate}
+        \item 59.2 $\mu$g/m$^3$
+        \item 118.6 $\mu$g/m$^3$
+        \item 237.5 $\mu$g/m$^3$
+        \item 574.4 $\mu$g/m$^3$
+    \end{enumerate}
+
+    \item Chlorine gas (8 mg/L as Cl$_2$) was added to a drinking water sample. If the free chlorine residual and pH was measured to be 2 mg/L (as Cl$_2$) and 7.5, respectively, what is the concentration of residual OCl$^-$ ions in the water? Assume that the chlorine gas added to the water is completely converted to HOCl and OCl$^-$. Atomic Weight of Cl: 35.5
+    Given: OCl$^-$ + H$^+$ $\rightleftharpoons$ HOCl,   $K = 10^{7.5}$
+    \begin{enumerate}
+        \item 1.408 $\times$ 10$^{-5}$ moles/L
+        \item 2.817 $\times$ 10$^{-5}$ moles/L
+        \item 5.634 $\times$ 10$^{-5}$ moles/L
+        \item 1.127 $\times$ 10$^{-5}$ moles/L
+    \end{enumerate}
+
+    \item If the jam density is given as $k_j$ and the free flow speed is given as $u_f$, the maximum flow for a linear traffic speed-density model is given by which of the following options?
+    \begin{enumerate}
+        \item $\frac{k_j}{4} \times u_f$
+        \item $\frac{k_j}{3} \times u_f$
+        \item $\frac{2k_j}{5} \times u_f$
+        \item $\frac{2k_j}{3} \times u_f$
+    \end{enumerate}
+
+    \item If $v$ is the initial speed of a vehicle, $g$ is the gravitational acceleration, $G$ is the upward longitudinal slope of the road, and $f_r$ is the coefficient of rolling friction during braking, the braking distance (measured horizontally) for the vehicle to stop is
+
+    \begin{enumerate}
+        \item $\frac{v^2}{g(G + f_r)}$
+        \item $\frac{v^2}{2g(G + f_r)}$
+        \item $\frac{vg}{(G + f_r)}$
+        \item $\frac{vf_r}{(G + g)}$
+    \end{enumerate}
+
+    \item The cumulative arrival and departure curve of one cycle of an approach lane of a signalized intersection is shown in the adjoining figure. The cycle time is $50$s and the effective red time is $30$s and the effective green time is$20$s. What is the average delay?
+    \begin{figure}[!ht]
+    \centering
+    \resizebox{0.5\textwidth}{!}{%
+    \begin{circuitikz}
+    \tikzstyle{every node}=[font=\small]
+    \draw  (1.5,13.75) rectangle (10.25,5.75);
+    \draw [dashed] (3,13.75) -- (3,5.75);
+    \draw [dashed] (4.75,13.75) -- (4.75,5.75);
+    \draw [dashed] (7,13.75) -- (7,5.75);
+    \draw [dashed] (8.75,13.75) -- (8.75,5.75);
+    \draw [dashed] (1.5,12) -- (10.25,12);
+    \draw [dashed] (1.5,9.75) -- (10.25,9.75);
+    \draw [dashed] (1.5,7.75) -- (10.25,7.75);
+    \node [font=\tiny, rotate around={7:(0,0)}] at (1.25,13.75) {40};
+    \node [font=\scriptsize, rotate around={7:(0,0)}] at (1.25,12) {30};
+    \node [font=\scriptsize, rotate around={7:(0,0)}] at (1.25,9.75) {20};
+    \node [font=\scriptsize, rotate around={7:(0,0)}] at (1.25,7.75) {10};
+    \node [font=\scriptsize, rotate around={7:(0,0)}] at (3,5.5) {10};
+    \node [font=\scriptsize, rotate around={7:(0,0)}] at (4.75,5.5) {20};
+    \node [font=\scriptsize, rotate around={7:(0,0)}] at (7,5.5) {30};
+    \node [font=\scriptsize, rotate around={7:(0,0)}] at (8.75,5.5) {40};
+    \node [font=\scriptsize, rotate around={7:(0,0)}] at (10.25,5.5) {50};
+    \draw [short] (1.5,5.75) -- (10.25,13.75);
+    \draw [short] (7,5.75) -- (10.25,13.75);
+    \node [font=\large] at (7.5,12.25) {Cummulative arrival};
+    \node [font=\large] at (9.25,7.5) {Cummualative departure};
+    \node [font=\small] at (6,5) {\textbf{Time(s)}};
+    \node [font=\small, rotate around={90:(0,0)}] at (0.5,10) {\textbf{Cummulative arrival or departure}};
+    \node [font=\small, rotate around={90:(0,0)}] at (0.75,10) {\textbf{(No. of Vehicles)}};
+    \end{circuitikz}
+    }%
+
+\label{fig:my_label}
+\end{figure}
+   \begin{enumerate}
+       \item $15$s
+       \item $25$s
+       \item $35$s
+       \item $45$s
+       
+   \end{enumerate}
+
+\item The observations from a closed loop transverse around an obstacle are
+
+
+\begin{table}[H]
+\centering 
+\begin{tabular}{|l|l|l|l|}  
+\hline
+Segment & \begin{tabular}[c]{@{}l@{}}Observation \\ from station\end{tabular} & Length (m) & \begin{tabular}[c]{@{}l@{}}Azimuth (clockwise\\ from magnetic north)\end{tabular} \\ \hline
+PQ      & P                                                                   & Missing    & 33.7500                                                                           \\ \hline
+QR      & Q                                                                   & 300.000    & 86.3847                                                                           \\ \hline
+RS      & R                                                                   & 354.524    & 169.3819                                                                          \\ \hline
+ST      & S                                                                   & 450.000    & 243.9003                                                                          \\ \hline
+TP      & T                                                                   & 268.000    & 317.5000                                                                          \\ \hline
+\end{tabular}
+\end{table}
+What is the value of the missing measurement(rounded off to the nearest 10mm)?
+    \begin{enumerate}
+        \item $396.86$ m
+        \item $396.79$ m
+        \item $396.08$ m
+        \item $396.94$ m
+    \end{enumerate}
+\section*{Common Data Questions}
+    \subsection*{Common Data for Questions 48 and 49:}
+    A sand layer found at sea floor under 20 m water depth is characterized with relative density = 40\%, maximum void ratio = 1.0, minimum void ratio = 0.5, and specific gravity of soil solids = 2.67. Assume the specific gravity of sea water to be 1.03 and the unit weight of fresh water to be 9.81 kN/m$^3$.
+    \item What would be the effective stress (rounded off to the nearest integer value of kPa) at 30 m depth into the sand layer?
+    \begin{enumerate}
+        \item $77$ kPa
+        \item $273$ kPa
+        \item $268$ kPa
+        \item $281$ kPa
+    \end{enumerate}
+
+    \item What would be the change in the effective stress (rounded off to the nearest integer value of kPa) at 30 m depth into the sand layer if the sea water level permanently rises by 2 m?
+    \begin{enumerate}
+        \item $19$ kPa
+        \item $0$ kPa
+        \item $21$ kPa
+        \item $22$ kPa
+    \end{enumerate}
+
+    \subsection*{Common Data for Questions 50 and 51:}
+    The ordinates of a 2-h unit hydrograph at 1 hour intervals starting from time $t = 0$, are 0, 3, 8, 6, 3, 2 and 0 m$^3$/s. Use trapezoidal rule for numerical integration, if required.
+
+    \item What is the catchment area represented by the unit hydrograph?
+    \begin{enumerate}
+    \item 1.00 km$^2$
+    \item 2.00 km$^2$
+    \item 7.92 km$^2$
+    \item 8.64 km$^2$
+    \end{enumerate}
+
+    \item A storm of 6.6 cm occurs uniformly over the catchment in 3 hours. If $\phi$-index is equal to 2 mm/h and base flow is 5 m$^3$/s, what is the peak flow due to the storm?
+    \begin{enumerate}
+    \item 41.0 m$^3$/s
+    \item 43.4 m$^3$/s
+    \item 53.0 m$^3$/s
+    \item 56.2 m$^3$/s
+    \end{enumerate}
+
+
+\section*{Linked Answer Questions}
+    \subsection*{Statement for Linked Answer Questions 52 and 53: }
+    A rigid beam is hinged at one end and supported on linear elastic springs (both having a stifness of 'k') at points '1' and '2', and an inclined load acts at '2', as shown.
+    \begin{figure}[!ht]
+\centering
+\resizebox{0.5\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw [short] (1.25,10.75) -- (1.25,5.75);
+\draw [short] (1.25,10.75) -- (2,10.75);
+\draw [short] (2,10.75) -- (2.5,9.5);
+\draw [short] (2.5,9.5) -- (5,7);
+\draw [short] (5,7) -- (5,5.75);
+\draw [short] (5,5.75) -- (1.25,5.75);
+\draw [short] (2.75,9.25) -- (3.75,9.25);
+\draw [short] (3.75,8.25) -- (3.75,9.25);
+\draw [short] (3.75,9.25) -- (3.75,9.5);
+\draw [short] (3.75,9.5) -- (15,9.5);
+\draw [short] (3.75,9.25) -- (15,9.25);
+\draw [short] (15,9.5) -- (15,9.25);
+\draw [short] (8.75,8.25) -- (10,8.25);
+\draw [short] (13.75,8.25) -- (15,8.25);
+\draw (9.25,9.25) to[R] (9.25,8.25);
+\draw (14.25,9.25) to[R] (14.25,8.25);
+\draw [->, >=Stealth] (13.25,11.25) -- (15,9.5);
+\draw [<->, >=Stealth] (3.75,5.25) -- (9.5,5.25);
+\draw [<->, >=Stealth] (9.5,5.25) -- (15,5.25);
+\draw [->, >=Stealth] (2.25,5.25) -- (3.25,8.5);
+\draw [->, >=Stealth] (2.5,12.25) -- (3.75,9.5)node[pos=0.5, fill=white]{Hinge};
+\node [font=\large] at (1.75,5) {Fixed};
+\node [font=\large] at (6.5,5.75) {l};
+\node [font=\large] at (12,5.75) {l};
+\draw [->, >=Stealth] (11.25,7.25) -- (9.25,8.25);
+\draw [->, >=Stealth] (13,7.5) -- (14.5,8.25);
+\node [font=\large] at (12,7.5) {Fixed};
+\node [font=\large] at (13.75,10) {$45\circ$};
+\draw  (9,10) rectangle (9.5,9.5);
+\draw  (15,10.25) rectangle (15.5,9.75);
+\node [font=\large] at (9.25,9.75) {\textbf{1}};
+\node [font=\large] at (15.25,10) {\textbf{2}};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
+
+\item Which of the following options represent the deflections $\delta_{1}$ and $\delta_{2}$ at the points 1 and 2
+
+\begin{enumerate}
+    \item $\delta_1 = \frac{2}{5} \frac{2P}{k}$ and $\delta_2 = \frac{4}{5} \frac{2P}{k}$
+    \item $\delta_1 = \frac{2}{5} \frac{P}{k}$ and $\delta_2 = \frac{4}{5} \frac{P}{k}$
+    \item $\delta_1 = \frac{2}{5} \frac{P}{\sqrt{2}k}$ and $\delta_2 = \frac{4}{5} \frac{P}{\sqrt{2}k}$
+    \item $\delta_1 = \frac{2}{5} \frac{\sqrt{2}P}{k}$ and $\delta_2 = \frac{4}{5} \frac{\sqrt{2}P}{k}$
+\end{enumerate}
+    
+
+
+
+
+    
+\end{enumerate}
+
+
+\end{document}
