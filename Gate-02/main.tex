@@ -1,0 +1,299 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline} 
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage{tikz}
+\usetikzlibrary{graphs}
+\usepackage{circuitikz}
+
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+
+\theoremstyle{remark}
+
+% Marks the beginning of the document
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{2013-AE-"14-26"}
+\author{ai24btech11028 - Ronit Ranjan}
+\maketitle
+\bigskip
+
+
+\begin{enumerate}
+    \item The critical Mach number for a flat plate of zero thickness, at zero angle of attack, is \underline{\hspace{2cm}}
+
+    \item A damped single degree-of-freedom system is vibrating under a harmonic excitation with an amplitude ratio of 2.5 at resonance. The damping ratio of the system is \underline{\hspace{2cm}}
+
+    \item The cross-section of a long thin-walled member is as shown in the figure. When subjected to pure twist, point A 
+    
+    \begin{figure}[!ht]
+    \centering
+    \resizebox{0.4\textwidth}{!}{%
+    \begin{circuitikz}
+    \tikzstyle{every node}=[font=\large]
+    \draw (1.5,12.5) to[short] (1.5,10.5);
+    \draw (1.5,10.5) to[short] (7,10.5);
+    \node [font=\large] at (1.25,10.5) {A};
+    \end{circuitikz}
+    }%
+    \label{fig:my_label}
+    \end{figure}
+    \begin{enumerate}
+        \item does not move horizontally or axially, but moves vertically 
+        \item does not move axially, but moves both vertically and horizontally
+        \item does not move horizontally, vertically or axially
+        \item does not move vertically or axially, but moves horizontally
+    \end{enumerate} 
+
+    \item The channel section of uniform thickness 2mm shown in the figure is subjected to a torque of 10 Nm. If it is made of a material with shear modulus of 25 GPa, the twist per unit length in radians/m is \underline{\hspace{2cm}}
+    \begin{figure}[!ht]
+    \centering
+    \resizebox{0.2\textwidth}{!}{%
+    \begin{circuitikz}
+    \tikzstyle{every node}=[font=\large]
+    \draw (2.75,12.25) to[short] (5.5,12.25);
+    \draw (2.75,12.25) to[short] (2.75,7.5);
+    \draw (2.75,7.5) to[short] (5.5,7.5);
+    \node [font=\large] at (4,12.5) {300mm};
+    \node [font=\large] at (2,10) {600mm};
+    \node [font=\large] at (4,7.25) {300mm};
+    \end{circuitikz}
+    }%
+
+    \label{fig:my_label}
+    \end{figure}
+
+    \item The stiffened cross-section of a long slender uniform structural member is idealized as shown in the figure below. The lumped areas at A, B, C and D have equal cross-sectional area of 3 cm$^2$. The webs AB, BC, CD and DA are each 5 mm thick. The structural member is subjected to a twisting moment of 10 kNm. The magnitudes of the shear flow in the webs, $q_{AB}, q_{BC}, q_{CD}, and q_{DA}$ in kN/m are, respectively
+    \begin{figure}[!ht]
+\centering
+\resizebox{0.25\textwidth}{!}{%
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\large]
+\draw (1.75,12) to[short] (5.75,12);
+\draw  (1.5,12) circle (0.25cm);
+\draw  (6,12) circle (0.25cm);
+\draw  (1.5,9.25) circle (0.25cm);
+\draw  (6,9.25) circle (0.25cm);
+\draw (1.5,11.75) to[short] (1.5,9.5);
+\draw (1.75,9.25) to[short] (5.75,9.25);
+\draw (6,11.75) to[short] (6,9.5);
+\node [font=\large] at (1,12) {A};
+\node [font=\large] at (1,9.25) {B};
+\node [font=\large] at (6.5,9.25) {C};
+\node [font=\large] at (6.5,12) {D};
+\draw [<->, >=Stealth] (7,12) -- (7,9.25);
+\draw [<->, >=Stealth] (1.5,8.75) -- (6,8.75);
+\node [font=\large] at (3.75,8.25) {500mm};
+\node [font=\large] at (8,10.75) {200mm};
+\end{circuitikz}
+}%
+
+\label{fig:my_label}
+\end{figure}
+
+    \begin{enumerate}
+        \item $20, 20, 20, 20$
+        \item $0, 0, 50, 50$
+        \item $40, 40, 0, 0$
+        \item $50, 50, 50, 50$
+    \end{enumerate}
+
+    \item Consider two engines P and Q. In P, the high pressure turbine blades are cooled with a bleed of 5\% from the compressor after the compression process and in Q the turbine blades are not cooled. Comparing engine P with engine Q, which one of the following is NOT TRUE? 
+    \begin{enumerate}
+        \item Turbine inlet temperature is higher for engine P 
+        \item Specific thrust is higher for engine P 
+        \item Compressor work is the same for both P and Q
+        \item Fuel flow rate is lower for engine P 
+    \end{enumerate}
+
+    \item The mass flow rate of air through an aircraft engine is 10 kg/s. The compressor outlet temperature is 400 K and the turbine inlet temperature is 1800 K. The heating value of the fuel is 42 MJ/kg and the specific heat at constant pressure is 1 kJ/kg-K. The mass flow rate of the fuel in kg/s is approximately \underline{\hspace{2cm}}
+
+    \item For a given inlet condition, if the turbine inlet temperature is fixed, what value of compressor efficiency given below leads to the lowest amount of fuel added in the combustor of a gas turbine engine?
+    \begin{enumerate}
+        \item $1$
+        \item $0.95$
+        \item $0.85$
+        \item $0.8$
+    \end{enumerate}
+
+    \item A gas turbine engine is mounted on an aircraft which can attain a maximum altitude of 11 km from sea level. The combustor volume of this engine is decided based on conditions at 
+    \begin{enumerate}
+        \item sea level
+        \item 8 km altitude
+        \item 5.5 km altitude
+        \item 11 km altitude
+    \end{enumerate}
+
+    \item Consider the low earth orbit (LEO) and the geo synchronous orbit (GSO). Then 
+
+    \begin{enumerate}
+        \item $\Delta V$ requirement for launch to LEO is greater than that for GSO, and altitude of LEO is lower than that of GSO 
+        \item $\Delta V$ requirement for launch to LEO is lower than that for GSO, and altitude of LEO is lower than that of GSO         
+        \item $\Delta V$ requirement for launch to LEO is greater than that for GSO, and altitude of LEO is greater than that of GSO 
+        \item $\Delta V$ requirement for launch to LEO is lower than that for GSO, and altitude of LEO is greater than that of GSO         
+    \end{enumerate}
+
+    \item Which one of the following shows the CORRECT variation of stagnation temperature along the axis of an ideal ram jet engine?
+    \begin{enumerate}
+        \item 
+        \begin{minipage}{0.3\textwidth}
+            \resizebox{0.9\textwidth}{!}{%
+                \begin{circuitikz}
+                    \tikzstyle{every node}=[font=\small]
+                    \draw [->, >=Stealth] (2,8.75) -- (6.75,8.75);
+                    \draw [->, >=Stealth] (2,8.75) -- (2,13);
+                    \draw [dashed] (3,12.5) -- (3,8.5);
+                    \draw [dashed] (4.5,12.5) -- (4.5,8.75);
+                    \draw [dashed] (5.75,12.5) -- (5.75,8.75);
+                    \draw [short] (2,9.5) -- (3,10);
+                    \draw [short] (3,10) -- (4.5,11.75);
+                    \draw [short] (4.5,11.75) -- (5.75,10.75);
+                    \draw [line width=0.2pt, short] (2,9.5) -- (5.75,9.5);
+                    \node [font=\small, rotate around={90:(0,0)}] at (1.75,10.75) {Stagnation Temp.};
+                    \node [font=\small] at (4,8.5) {Axis};
+                    \node [font=\footnotesize] at (2.5,9.25) {Intake};
+                    \node [font=\footnotesize] at (3.75,9.25) {Combustor};
+                    \node [font=\footnotesize] at (5.1,9.25) {Nozzle};
+                \end{circuitikz}
+            }%
+        \end{minipage}
+
+        \item
+        \begin{minipage}{0.3\textwidth}
+            \resizebox{0.9\textwidth}{!}{%
+                \begin{circuitikz}
+\tikzstyle{every node}=[font=\small]
+\draw [->, >=Stealth] (2,8.75) -- (6.75,8.75);
+\draw [->, >=Stealth] (2,8.75) -- (2,13);
+\draw [dashed] (3,12.5) -- (3,8.5);
+\draw [dashed] (4.5,12.5) -- (4.5,8.75);
+\draw [dashed] (5.75,12.5) -- (5.75,8.75);
+\draw [line width=0.2pt, short] (2,9.5) -- (5.75,9.5);
+\node [font=\small, rotate around={90:(0,0)}] at (1.75,10.75) {Stagnation Temp.};
+\node [font=\small] at (4,8.5) {Axis};
+\node [font=\footnotesize] at (2.5,9.25) {Intake};
+\node [font=\footnotesize] at (3.75,9.25) {Combustor};
+\node [font=\footnotesize] at (5,9.25) {Nozzle};
+\draw [ line width=0.2pt](2,9.5) to[short] (3,9.5);
+\draw [ line width=0.5pt](2,9.5) to[short] (3,9.5);
+\draw [line width=0.5pt, short] (3,9.5) -- (4.5,11.75);
+\draw [line width=0.5pt, short] (4.5,11.75) -- (5.75,11.75);
+
+\label{fig:my_label}
+
+                \end{circuitikz}
+            }%
+        \end{minipage} 
+
+        \item 
+        \begin{minipage}[t]{\textwidth} 
+    \resizebox{0.3\textwidth}{!}{%
+        \begin{circuitikz}
+            \tikzstyle{every node}=[font=\small]
+            \draw [->, >=Stealth] (2,8.75) -- (6.75,8.75);
+            \draw [->, >=Stealth] (2,8.75) -- (2,13);
+            \draw [dashed] (3,12.5) -- (3,8.5);
+            \draw [dashed] (4.5,12.5) -- (4.5,8.75);
+            \draw [dashed] (5.75,12.5) -- (5.75,8.75);
+            \draw [line width=0.2pt, short] (2,9.5) -- (5.75,9.5);
+            \node [font=\small, rotate around={90:(0,0)}] at (1.75,10.75) {Stagnation Temp.};
+            \node [font=\small] at (4,8.5) {Axis};
+            \node [font=\footnotesize] at (2.5,9.25) {Intake};
+            \node [font=\footnotesize] at (3.75,9.25) {Combustor};
+            \node [font=\footnotesize] at (5,9.25) {Nozzle};
+            \draw [line width=0.2pt] (2,9.5) to[short] (3,9.5);
+            \draw [line width=0.5pt, short] (2,9.5) -- (3,10);
+            \draw [line width=0.5pt, short] (3,10) -- (4.5,10);
+            \draw [line width=0.5pt, short] (4.5,10) -- (5.75,9.75);
+        \end{circuitikz}
+    }
+\end{minipage}
+\item
+
+        \resizebox{0.3\textwidth}{!}{%
+    \begin{circuitikz}
+        \tikzstyle{every node}=[font=\small]
+        \draw [->, >=Stealth] (2,8.75) -- (6.75,8.75);
+        \draw [->, >=Stealth] (2,8.75) -- (2,13);
+        \draw [dashed] (3,12.5) -- (3,8.5);
+        \draw [dashed] (4.5,12.5) -- (4.5,8.75);
+        \draw [dashed] (5.75,12.5) -- (5.75,8.75);
+        \draw [line width=0.2pt, short] (2,9.5) -- (5.75,9.5);
+        \node [font=\normalsize, rotate around={90:(0,0)}] at (1.75,10.75) {Stagnation Temp.};
+        \node [font=\normalsize] at (4,8.5) {Axis};
+        \node [font=\small] at (2.5,9.25) {Intake};
+        \node [font=\small] at (3.75,9.25) {Combustor};
+        \node [font=\small] at (5,9.25) {Nozzle};
+        \draw [line width=0.2pt] (2,9.5) to[short] (3,9.5);
+        \draw [line width=0.5pt, short] (2,9.5) -- (3,10);
+        \draw [line width=0.5pt, short] (3,10) -- (4.5,11.75);
+        \draw [line width=0.5pt, short] (4.5,11.75) -- (5.75,11.75);
+    \end{circuitikz}
+} 
+        
+    \end{enumerate}
+
+
+    \item A rocket motor has a chamber pressure of 100 bar and chamber temperature of 3000 K. The ambient pressure is 1 bar. Assume that the specific heat at constant pressure is 1 kJ/kg-K. Also assume that the flow in the nozzle is isentropic and optimally expanded. The exit static temperature in K is 
+
+    \begin{enumerate}
+        \item $805$
+        \item $845$
+        \item $905$
+        \item $945$
+    \end{enumerate}
+
+    \subsection*{Q.26 to Q.55 carry two marks each}
+
+    \item I = $\iint_S \brak{ y^2 \hat{i} + z^2 \hat{j} + x^2 \hat{k} }\brak{ \cdot ( x \hat{i} + y \hat{j} + z \hat{k}} \, dS,$  where S denotes the surface of the sphere of unit radius centered at the origin. Here $\hat{i}, \hat{j}$ and $\hat{k}$  denote three orthogonal unit vectors. The value of I is \underline{\hspace{2cm}}
+
+
+
+    
+\end{enumerate}
+
+
+
+\end{document}
