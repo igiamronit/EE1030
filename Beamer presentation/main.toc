@@ -1,0 +1,10 @@
+\beamer@sectionintoc {2}{Problem}{3}{0}{1}
+\beamer@sectionintoc {3}{Solution}{4}{0}{2}
+\beamer@subsectionintoc {3}{1}{Internal Division}{4}{0}{2}
+\beamer@subsectionintoc {3}{2}{Changing everything to Matrix form}{5}{0}{2}
+\beamer@subsectionintoc {3}{3}{External Division}{6}{0}{2}
+\beamer@subsectionintoc {3}{4}{Changing everything to matrix form}{7}{0}{2}
+\beamer@sectionintoc {4}{Codes}{8}{0}{3}
+\beamer@sectionintoc {5}{Figures}{9}{0}{4}
+\beamer@subsectionintoc {5}{1}{Plot for internal divison}{9}{0}{4}
+\beamer@subsectionintoc {5}{2}{Plot for external divison}{10}{0}{4}
